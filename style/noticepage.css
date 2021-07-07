@@ -1,0 +1,30 @@
+.table_layout{
+    margin-top: 80px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 9px 0px grey;
+}
+table{
+    border: 1px solid gray;
+}
+.table td, .table th{
+    padding: 5px !important;
+}
+thead{
+    border-bottom:2px solid #0497c4 !important;
+}
+.table .thead-dark th {
+    color: rgb(5, 5, 5);
+    background-color: rgb(236, 242, 243);
+    border: 1px solid grey !important;    
+}
+tr th, tr td, thead tr th{
+    border:1px solid gray !important ;
+}
+tbody tr td{
+    font-size: 14px !important;
+}
+thead tr th{
+    font-weight: normal !important;
+}

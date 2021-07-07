@@ -1,0 +1,312 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+    body{
+        margin: 0px 100px 0px 100px !important;
+    }
+    h2{
+        font-size: 20px;
+    }
+    header .name_tag {
+        margin-top: 20px;
+        padding-left: 25px;
+    }
+    .main_menu {
+        padding: 0px 100px 0px 100px;
+    }
+    .body_sec {
+        display: inline-block;
+    }
+    .left_side {
+        width: 100%;
+    }
+    .right_side {
+        width: 100%;
+    }
+    footer {
+        padding: 10px 20px 10px 20px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:768px){
+    body{
+        background-image: linear-gradient(rgb(252, 253, 253),white),url(/images/pabg.png);
+        margin: 0 !important;
+    }
+    footer{
+        display: inline-block !important;
+    }
+
+    .contact {
+        padding-left: 0px;
+    }
+    .creator{
+        display: none;
+    }
+    .mcreator{
+        display: block;
+        margin-top: 20px;
+        position: unset;
+        width: 42%;
+    }
+    .developer {
+        right: 30px;
+        bottom: -7px;
+    }
+    .carousel, .carousel-inner, .carousel-item img {
+        height: 250px;
+    }
+    .autho1 {
+        width: 25% !important;
+        left: 485px !important;
+    }
+    .authority {
+        width: 35%;
+        top: 185px;
+        left: 233px;
+    }
+    header .name_tag {
+        padding-left: 50px;
+    }
+    .sorkar {
+        width: 9%;
+        display: none;
+    }
+    header .name_tag {
+        width: 100%;
+    }
+    .main_menu {
+        width: 110%;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .main_menu {
+        padding: 0px 10px 0px 10px;
+    }
+    footer div {
+        width: 85%;
+        margin: auto;
+    }
+    .main_menu ul li a {
+        font-size: 16px;
+    }
+    .celebration .b17 {
+        width: 80%;
+    }
+    .b17 img{
+        height: 400px;
+        width: 400px;
+    }
+    .main_menu{
+        display: none;
+    }
+    .main_slide {
+        margin-top: 20px;
+    }
+    .mobile_menu{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        height: 40px;
+        width: 100%;
+        left: 0;
+        background-color:  rgb(3, 158, 179);
+        z-index: 9999999;
+        text-align: center;
+    }
+
+
+    .mobile_menu i{
+        font-size: 25px;
+        color: white;
+        padding: 7px;
+        padding-right: 76px;
+    }
+    .pl0{
+        padding-right: 0px !important;
+    }
+    .mobile_menu i:hover{
+        cursor: pointer;
+    }
+    .openathor{
+        position: fixed;
+        bottom: 45px;
+        width: 95%;
+        background-color: rgb(3, 158, 179);
+        padding: 15px;
+        margin-left: 2.5%;
+    }
+    .openathor1{
+        position: fixed;
+        bottom: 45px;
+        width: 95%;
+        background-color: rgb(3, 158, 179);
+        padding: 15px;
+        margin-left: 2.5%;
+    }
+    .openathor ul li{
+        list-style-type:none;
+        border-bottom: 1px solid rgba(228, 225, 225, 0.342);
+    }
+    .openathor ul li:hover{
+        background-color: rgb(4, 142, 160);
+    }
+    .openathor ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+
+    }
+ 
+    .openathor ul li{
+        padding: 5px;
+    }
+    .openathor1 ul li{
+        list-style-type:none;
+        border-bottom: 1px solid rgba(228, 225, 225, 0.342);
+    }
+    .openathor1 ul li:hover{
+        background-color: rgb(4, 142, 160);
+    }
+    .openathor1 ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+
+    }
+    .openathor1 ul li{
+        padding: 5px;
+    }
+    #o1{
+        display: none;
+    }
+    .openathor i{
+        color: red;
+    }
+    .openathor i:hover{
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:618px){
+    .mobile_menu i {
+        padding-right: 60px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:555px){
+    .mobile_menu i {
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:540px){
+
+    header .name_tag {
+        padding-left: 70px;
+    }
+    .month {
+
+        width: 40px;
+        margin-top: 0px;
+    }
+    .mcreator {
+        width: 100%;
+    }
+    .developer {
+        right: 18px;
+        bottom: 37px;
+    }
+    .notice_title {
+        padding-left: 12px;
+    }
+    .date {
+        width: 9%;
+    }
+    .notice_title a {
+        font-size: 14px;
+    }
+    .celebration .b17 {
+        width: 90%;
+    }
+    .b17 img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:500px){
+    .mobile_menu i {
+        padding-right: 40px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:450px){
+    .mobile_menu i {
+        padding-right: 30px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:415px){
+
+        .logo a img{
+            max-width: 70px !important;
+        }
+        header .name_tag {
+            margin-top: 14px;
+            padding-left: 70px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .name_tag .goal{
+            font-size: 14px;
+        }
+        .tarikh {
+            font-size: 15px;
+        }
+        .mail_list {
+            position: relative;
+            display: none;
+        }
+        .date {
+            width: 14%;
+        }
+        .developer {
+            right: 91px;
+            bottom: -5px;
+            font-size: 11px;
+        }
+        .name_tag .goal {
+            font-size: 13px;
+        }
+        .b17 img{
+            height: 300px;
+            width: 350px;
+        }
+        .celebration .b17 {
+            width: 100%;
+        }
+        .celebration .allhere{
+            display: inline-block;
+        }
+}
+@media only screen and (min-width:200px) and (max-width:400px){
+    .mobile_menu i {
+        padding-right: 20px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:350px){
+    .mobile_menu i {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:307px){
+    .mobile_menu i {
+        font-size: 17px;
+        padding-top: 12px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:280px){
+    .mobile_menu i {
+        font-size: 17px;
+        padding-top: 15px;
+        padding-right: 10px;
+
+    }
+}

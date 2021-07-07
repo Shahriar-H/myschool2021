@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Goalgram High School</title>
+    <link rel="stylesheet" href="./style/mainstyle.css">
+    <link rel="stylesheet" href="./style/mainresponsive.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body id="body" >
+<section class="mainbody" onclick="clickoff()">
+    <header>
+        <div class="logo">
+            <a href=""><img src="./images/logo.png" style="max-width: 100px;" alt=""></a>
+        </div>
+        <div class="name_tag">
+            <h2 class="goal">গোয়ালগ্রাম মাধ্যমিক বিদ্যালয়</h2>
+            <h2>Goalgram High School</h2>
+        </div>
+        <div class="sorkar">
+            <img style="max-width: 100px;" src="./images/logo.png" alt="">
+        </div>
+    </header>
+
+    <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        Celebration Sction section start 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+
+
+    <section class="celebration" id="celebration" onclick="clearInterval(timing)">
+        <div class="b17">
+            <img class="batch17" src="./images/b17.png" alt="">
+        </div>
+        <audio src="./images/fireworks.mp3" id="fire"></audio>
+        <div class="allhere">
+            <img src="./images/84299.gif" alt="">
+            <img src="./images/WS2k.gif" alt="">
+        </div>
+        <img src="./images/celebration1.gif" alt="">
+    </section>
+
+        <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        Celebration Sction section end 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+
+    <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        main menu section start 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+    <section class="main_menu" >
+        <ul style="margin-top: -2px;">
+            <li><a onmouseover="hidedrop()" href="">Home</a></li>
+            <li><a onmouseover="hidedrop()" href="">Office</a></li>
+            <li><a onmouseover="seendrop()" href="#">Authority</a></li>
+            <li><a onmouseover="hidedrop()" href="">Teachers</a></li>
+            <li><a onmouseover="hidedrop()" href="">Students</a></li>
+            <li><a onmouseover="seendrop1()" href="">Class</a></li>
+        </ul>
+    </section>
+
+    <div class="authority" id="authordrop" >
+        <ul>
+            <li><a href="">Chairman</a></li>
+            <li><a href="">Head Teacher</a></li>
+            <li><a href="">Assi.Head Teacher</a></li>
+            <li><a href="">Director</a></li>
+        </ul>
+    </div>
+    <div class="authority autho1" id="authordrop1" >
+        <ul>
+            <li><a href="">Class-6</a></li>
+            <li><a href="">Class-7</a></li>
+            <li><a href="">Class-8</a></li>
+            <li><a href="">Class-9</a></li>
+            <li><a href="">Class-10</a></li>
+        </ul>
+    </div>
+        <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        main menu section End 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+
+
+
+
+
+       <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        Mobile menu section Start 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+
+
+    <div class="mobile_menu" id="m-menu">
+            <i class="fas fa-home"></i>
+            <i class="fas fa-briefcase"></i>
+            <i onclick="seenauthority()" id="c1" class="fas fa-tasks"></i>
+            <i class="fas fa-chalkboard-teacher"></i>
+            <i class="fas fa-user-graduate"></i>
+            <i onclick="seenauthority1()" class="fas fa-school pl0"></i>
+    </div>
+
+
+
+           <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        Mobile menu section End 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+
+
+
+
+
+
+
+
+
+    
+
+    <!--
+    ####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        Slider section Home 
+    $$$$$$$$$$$$$$$$$$$$$#########################
+    -->
+  <section class="main_slide">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/background2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/884c77c1313795dd5ba21bbafac0fd6e.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/network-ref-4-low.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="scroll_div">
+          <marquee behavior="scroll" direction="left" scrollamount="3" onmouseout="this.start();" onmouseover="this.stop();">
+            <a href="#">First notice for Students</a>
+            <a href="#">First notice for Students</a>
+            <a href="#">First notice for Students</a>
+            <a href="#">First notice for Students</a>
+
+          </marquee>
+      </div>
+  </section>
+<!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Slider section End 
+$$$$$$$$$$$$$$$$$$$$$#########################
+-->  
+
+
+<section class="body_sec">
+<!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Left Side bar section Start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> 
+<div class="left_side">
+<div class="head_teacher">
+    <h4 style="font-weight: bold; font-size: 20px;" class="text-center">Head Teacher</h4>
+    <img src="./images/head.png" alt="">
+    <p style="font-weight: bold;" class="text-center">Name of the Teacher</p>
+    <a class="details" href="">Details</a>
+</div>
+<div class="ahead_teacher">
+    <h4 style="font-weight: bold; font-size: 20px;" class="text-center">Assistant Head Teacher</h4>
+    <img src="./images/head.png" alt="">
+    <p style="font-weight: bold;" class="text-center">Name of the Teacher</p>
+    <a class="details" href="">Details</a>
+</div>
+
+</div>
+
+<!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Left Side bar section Start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> 
+
+<!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    right Side bar section Start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> 
+<div class="right_side">
+ 
+    <div class="menu_right">
+        <ul>
+            <li><a href="#">Notice Board</a></li>
+            <li><a href="#">News Event</a></li>
+            <li><a href="">Office Order</a></li>
+            <li><a href="">Job Application</a></li>
+            <li><a href="">Videos</a></li>
+        </ul>
+    </div>
+
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href=""> Here goes to title</a>
+        </div>
+    </div>
+
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href=""> Here goes to title</a>
+        </div>
+    </div>
+
+    
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href=""> Here goes to title</a>
+        </div>
+    </div>
+
+    
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href=""> Here goes to title</a>
+        </div>
+    </div>
+
+    
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href=""> Here goes to title</a>
+        </div>
+    </div>
+
+    
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href="">এখানে আজকের নোটিশ লিখুন খুজে পাবেন </a>
+        </div>
+    </div>
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href="">এখানে টাইটেল লিখুন ঠিক এখানে </a>
+        </div>
+    </div>
+    <div class="noticeall">
+        <div class="date">
+            <div class="month">
+                Jan
+            </div>
+            <div class="tarikh">
+                01
+            </div>
+        </div>
+        <div class="notice_title">
+            <a href="">এখানে টাইটেল লেখা হবে </a>
+        </div>
+    </div>
+
+
+    <a class="all_notice" href="./pages/noticepage.html">See All Notice</a>
+    
+
+</div>
+
+<!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    right Side bar section Start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> 
+</section>
+<br><br>
+<footer>
+    <div class="quick_links">
+        <h5 class="fons" style="color: white;">Quick Links</h5>
+        <hr>
+        <a href="#"><span >&#8690;</span> Link-1</a><br>
+        <a href="#"><span>&#8690;</span> Link-1</a><br>
+        <a href="#"><span>&#8690;</span> Link-1</a><br>
+        <a href="#"><span>&#8690;</span> Link-1</a><br>
+        <a href="#"><span>&#8690;</span> Link-1</a><br>
+        <div class="social w-100">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-blogger"></i></a>
+
+        </div>
+
+    </div>
+    <div class="mail_list">
+        <h5 class="fons" style="color: white;">Join Our Mailing List</h5>
+        <hr>
+        <p style="color: white;" >To get our daily Updates to your Email</p>
+        <div class="mail">
+            <input class="inp2" type="text">
+            <input type="submit" class="inp1" value="Subscribe">
+        </div>
+        <div class="creator" onclick="celebrate()">
+            <h5 class="pt-1 dve dev1"><a class="dve" href="">Shahriar</a> on Behalf of the SSC Batch-2017</h5>
+        </div>
+    </div>
+    <div class="contact">
+        <h5 class="fons" style="color: white;">Contact Us</h5>
+        <hr>
+        <p style="color: white; padding-top: 5px;">
+            <i class="fas fa-map-marker-alt text-white pr-1"></i>
+            Goalgram High School<br> Golagram, Daulatpur, Kushtia
+        </p>
+        <p style="color: white;"><i class="fas fa-phone text-white pr-1"></i>+018XXX-XXXXX</p>
+        <p style="color: white;"><i class="fas fa-envelope text-white pr-1"></i>Goalgram-h-c@gmail.com</p>
+
+    </div>
+    <div class="creator mcreator" onclick="celebrate()">
+        <h5 class="pt-1 dve dev1"><a class="dve" href="">Shahriar</a> on Behalf of the SSC Batch-2017</h5>
+    </div>
+<p class="developer">Developed by <a href="">SHAHRIAR</a></p>
+</footer>
+<div class="openathor" id="authordropopen">
+    <i onclick="closeauthority()">&#x2716;</i>
+
+    <ul>
+        <li><a href="#">Head Teacher</a></li>
+        <li><a href="#">Assis Head Teacher</a></li>
+        <li><a href="#">Chairmain</a></li>
+        <li><a href="#">Diractor</a></li>
+
+    </ul>
+</div>
+<div class="openathor openathor1" id="authordropopen1">
+    <i onclick="closeauthority()">&#x2716;</i>
+    <ul>
+        <li><a href="#">Class-6</a></li>
+        <li><a href="#">Class-7</a></li>
+        <li><a href="#">Class-8</a></li>
+        <li><a href="#">Class-9</a></li>
+        <li><a href="#">Class-10</a></li>
+
+    </ul>
+</div>
+
+<script>
+    function seendrop(){
+        document.getElementById('authordrop').style.display="block";
+        document.getElementById('authordrop1').style.display="none";
+    } 
+    function seenauthority(){
+        document.getElementById('authordropopen').style.display="block";
+        document.getElementById('authordropopen1').style.display="none";
+
+    } 
+    function closeauthority(){
+        document.getElementById('authordropopen').style.display="none";
+        document.getElementById('authordropopen1').style.display="none";
+    } 
+    function seenauthority1(){
+        document.getElementById('authordropopen1').style.display="block";
+        document.getElementById('authordropopen').style.display="none";
+
+
+
+    } 
+    function seendrop1(){
+        document.getElementById('authordrop1').style.display="block";
+        document.getElementById('authordrop').style.display="none";
+    }
+    function hidedrop(){
+        document.getElementById('authordrop').style.display="none";
+        document.getElementById('authordrop1').style.display="none";
+
+    }   
+    function clickoff(){
+        document.getElementById('authordrop').style.display="none";
+        document.getElementById('authordrop1').style.display="none";
+
+    }
+
+    var mobilemenu = document.getElementById("m-menu");
+    window.onscroll=function(){
+        if(window.scrollY>1300){
+            mobilemenu.style.display='none';
+        }else{
+            mobilemenu.style.display='block';
+        }
+    }
+    function celebrate(){
+        var i =0;
+        var fire = document.getElementById('fire');
+        fire.play();
+        var settime= setInterval(timing, 1000);
+        document.getElementById('celebration').style.display="block";
+        function timing(){
+            i++;
+            if(i>=3){
+                document.getElementById('celebration').style.display="none";
+                window.location.reload()
+            }else{
+                document.getElementById('celebration').style.display="block";
+            }
+        }
+    }
+</script> 
+
+</section>  
+</body>
+</html>

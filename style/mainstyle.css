@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(rgba(83, 233, 253, 0.438),transparent),url(/images/pabg.png);
+    background-position: center;
+    background-size: 100vh 100vh;
+    background-attachment: fixed;
+    margin: 0px 200px 0px 200px;
+    overflow-x: hidden;
+}
+header{
+    display: inline-flex;
+    margin-top: 20px;
+    width: 100%;
+}
+header .name_tag{
+    margin-top: 15px;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 79%;
+}
+.mainbody{
+   /* background-color: rgb(255, 255, 255);*/
+    background-size: cover;
+}
+.logo{
+    width: 12%;
+}
+.sorkar{
+    width: 9%;
+}
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    main menu section start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+.main_menu{
+    width: 100%;
+    height: 46px;
+    background-color: rgb(4, 179, 202);
+    position: absolute;
+    left: 0;
+    padding: 0px 200px 0px 200px;
+    margin-top: 20px;
+}
+.main_menu ul li{
+    list-style-type: none;
+    float: left;
+    padding:10px;
+}
+.main_menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    transition: .4s;
+}
+
+a:hover{
+    color: black;
+    transition: .4s;
+}
+.authority{
+    width: 15%;
+    position: absolute;
+    top: 185px;
+    left: 320px;
+    display: none;
+    z-index: 99;
+}
+.autho1{
+    width: 15%;
+    position: absolute;
+    top: 185px;
+    left: 620px;
+    display: none;
+    z-index: 99;
+}
+
+.authority ul li{
+    list-style-type: none;
+    padding: 7px;
+    background-color: rgb(4, 179, 202);
+    border-bottom: 1px solid rgba(228, 225, 225, 0.404);
+    transition: .4s;
+
+}
+.authority ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    transition: .4s;
+    padding-left: 15px;
+    display: block;
+}
+.authority ul li:hover{
+    background-color: rgb(3, 158, 179);
+}
+.authority ul li:hover a{
+    padding-left:19px ;
+    transition: .4s;
+}
+
+
+
+
+
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    main menu section End 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Slide section Start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+.carousel, .carousel-inner, .carousel-item img{
+    height: 350px;
+}
+.main_slide{
+    margin-top: 66px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
+.carousel:hover .carousel-control-prev{
+    display: flex;
+    animation: comefromnxt .1s linear;
+}
+.carousel:hover .carousel-control-next{
+    display: flex;
+    animation: comefrom .1s linear;
+}
+
+.carousel-control-prev{
+    
+}
+@keyframes comefrom{
+    0%{right: -40px;opacity: 0.2;}
+    50%{right:-20px; opacity: .6;}
+    100%{right:0px; opacity: 1;}
+}
+@keyframes comefromnxt{
+    0%{left: -40px;opacity: 0.2;}
+    50%{left:-20px; opacity: .6;}
+    100%{left:0px; opacity: 1;}
+}
+.scroll_div{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(3, 158, 179);
+    margin-top: 10px;
+}
+marquee{
+    margin: auto 0;
+    height: 19px;
+}
+
+marquee a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 13px;
+}
+
+
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Slide section End 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Main body section End 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+
+.body_sec{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 1%;
+}
+.left_side{
+    width: 35%;
+    background-color: white;
+    margin-right: 3%;
+    padding: 35px 0px 35px 0px;
+    box-shadow:0px 1px 9px 1px rgb(184, 183, 183) ;
+}
+.left_side img, .right_side img{
+    height: 180px;
+    width:180px;
+    margin: 0 auto;
+    display: block;
+}
+.head_teacher{
+    padding: 0 0 25px 0;
+}
+
+.details{
+    padding :6px 25px;
+    width: 30%;
+    color: white;
+    background-color:rgb(3, 158, 179) ;
+    text-align: center !important;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none !important;
+    margin-top:-10px;
+}
+.right_side{
+    width: 62%;
+    background-color: white;
+    padding: 0px 30px 15px 30px;
+    box-shadow:0px 1px 9px 1px rgb(184, 183, 183) ;
+}
+.menu_right{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    margin-bottom: 20px;
+}
+.menu_right ul li{
+    list-style-type: none;
+    float: left;
+    padding: 5px 10px;
+}
+.menu_right ul li a{
+    text-decoration: none !important;
+    color: black;
+}
+.menu_right ul li:hover{
+    background-color: white;
+    border-bottom: 1px solid rgb(3, 158, 179) ;
+}
+.noticeall{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.date{
+    width: 7%;
+    border: 1px solid rgb(3, 158, 179);
+    margin-right: 15px;
+}
+.month{
+    background-color: rgb(3, 158, 179);
+    text-align: center;
+}
+.tarikh{
+    text-align: center;
+    font-size: 20px;
+}
+.notice_title{
+    padding-top: 5px;
+    width: 86%;
+    height: 54px;
+    border-bottom: 1px solid rgba(3, 158, 179, 0.212);
+}
+.notice_title a{
+    font-size: 17px;
+    padding-top: 10px;
+    margin-bottom: 0 !important;
+    text-decoration: none !important;
+    color: black;
+}
+.notice_title a:hover{
+    color:rgb(3, 158, 179);
+}
+
+.all_notice{
+    color:rgb(3, 158, 179) ;
+    text-decoration: none !important;
+    
+}
+
+
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    Manin body section End 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    footer section start 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+.mcreator{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    display: inline-flex;
+    padding: 30px 200px 20px 200px;
+}
+
+footer div{
+    width: 33.33%;
+}
+.quick_links a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: .4s;
+}
+.quick_links a span{
+    font-size: 12px;
+}
+.social{
+    margin-top: 20px;
+}
+.social a{
+    padding: 3px;
+    transition: .4s;
+}
+.quick_links a:hover{
+    color: rgb(3, 158, 179);
+    padding-left: 5px;
+    transition: .4s;
+}
+.social a i{
+    font-size: 18px;
+}
+.mail_list{
+    position: relative;
+}
+.mail_list p{
+    padding-top: 20px;
+    margin-bottom: 3px;
+}
+
+.mail{
+    width: 100%;
+}
+.mail input{
+    height: 33px;
+    width: 75%;
+    border: 1px solid rgb(3, 158, 179);
+}
+.mail .inp2{
+    padding-left: 10px;
+}
+.mail .inp1{
+    width: 22% !important;
+    background-color:  rgb(3, 158, 179);
+    color: white;
+}
+.openathor, .openathor1, .mobile_menu{
+    display: none;
+}
+.mail .inp1:hover{
+    cursor: pointer;
+}
+.contact{
+    padding-left: 100px;
+}
+
+
+.fons{
+    font-size: 25px;
+    font-weight: bold;
+}
+hr{
+    background-color: white;
+    margin-top:0 ;
+    width: 10%;
+}
+.creator{
+    width: 98%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border: 1px solid rgb(3, 158, 179);
+    position: absolute;
+    bottom:-5px;
+}
+.creator:hover{
+    cursor: pointer;
+}
+.creator h5{
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* <!--
+####################$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+    footer section End 
+$$$$$$$$$$$$$$$$$$$$$#########################
+--> */
+
+
+
+.celebration{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.507);
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: none;
+}
+.celebration .allhere{
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+}
+.celebration .b17{
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    z-index: 999999;
+}
+.b17{
+    animation: styleforimg .9s linear;
+}
+.mobile_menu{
+    display: none;
+}
+@keyframes styleforimg{
+    0%{top:-300px}
+    50%{top: 0;}
+    60%{top: -100px;}
+    70%{top: 0;}
+    80%{top: 50px;}
+    100%{top: 0;}
+}
+
+.developer{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    color: grey;
+}
+.developer a, .dve{
+    color: rgb(3, 158, 179);
+    text-decoration: none !important;
+}
+.dve:hover{
+    color: rgb(3, 158, 179);
+}
+.dev1 a{
+    color: rgb(4, 106, 119);
+}
+
+
+
+
+
+
